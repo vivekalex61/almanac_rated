@@ -83,43 +83,43 @@ Transportation: daily commute, public transportation, Interstate highways, air s
 
 The principal components of a collection of points in a real coordinate space are a sequence of {\displaystyle p}p unit vectors, where the {\displaystyle i}i-th vector is the direction of a line that best fits the data while being orthogonal to the first {\displaystyle i-1}i-1 vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
 
-PC1:
+#### PC1:
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc1.png)
 
-Places sorted using PC1 :
+####  Places sorted using PC1 :
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc1_places.png)
 
-PC2:
+####  PC2:
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc2.png)
 
-Places sorted using PC2 :
+####  Places sorted using PC2 :
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc2_places.png)
 
-PC3:
+####  PC3:
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc3.png)
 
-Places sorted using PC3:
+####  Places sorted using PC3:
 
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc3_places.png)
 
 
-Bi-plot :
+#### Bi-plot :
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/Biplot.png)
 
 
-Loading plot:
+#### Loading plot:
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/loading_plot.png)
 
