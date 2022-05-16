@@ -12,7 +12,7 @@ Some may prefer country side, cities, isolated areas and so on.If we have data a
 Here, The dataset is consist of Americas 379 metropolitan area  is rated by factors that are important to anyone considering a move.
 
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/intro.png)
 
 ## Overview 
 - Datasets and Data-Loading
@@ -55,11 +55,22 @@ Transportation: daily commute, public transportation, Interstate highways, air s
 
 
 #### Selected Features
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/data.png)
+
 
 #### Data distribution
 
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/dist_1.png)
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/dist_2.png)
+
+
 #### Data corelation
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/corr.png)
+
 
 
 ### Model building and training
@@ -72,10 +83,45 @@ Transportation: daily commute, public transportation, Interstate highways, air s
 
 The principal components of a collection of points in a real coordinate space are a sequence of {\displaystyle p}p unit vectors, where the {\displaystyle i}i-th vector is the direction of a line that best fits the data while being orthogonal to the first {\displaystyle i-1}i-1 vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
 
+PC1:
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc1.png)
+
+Places sorted using PC1 :
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc1_places.png)
+
+PC2:
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc2.png)
+
+Places sorted using PC2 :
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc2_places.png)
+
+PC3:
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc3.png)
+
+Places sorted using PC3:
+
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/pc3_places.png)
+
+
+Bi-plot :
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/Biplot.png)
+
+
+Loading plot:
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/almanac_rated/main/images/loading_plot.png)
 
 
 ## Results
@@ -98,8 +144,6 @@ PC1: This component is the measure of Labor force : 0.41 ,Healthcare: 0.40, Pove
 PC2: This component has can be measure of  percapita income: -0.482,House hold income  :  -0.43 ,family income  : 0.-43 and Population density:.37 . So, we can say PC2 tells about the Bad or worst. This suggest that when pc2 increases there will will be a low income.
 
 PC3:This component affects the Population density : 48% and restaurant density :46% also negatively affects median age. This component may say that area in PC3 have young people so, restaurant density is high.The third principal component is a measure of the age and restaurant density.
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-
 
 ## End Notes
 
